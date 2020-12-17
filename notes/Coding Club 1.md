@@ -85,3 +85,5 @@ print(translated_greeting)
 ## Putting it all together
 
 Its time to put all of these skills together so here is the scenario. A manager in your troop has recently arrived. He has to send 2x geographic technicians to support an external unit, but they should have python programming knowledge and be class 1 qualified. We are going to create a python program to help the manager shortlist appropriate technicians from a pool of his technicians.
+
+
