@@ -2,7 +2,7 @@
 tags: [Exercises]
 title: Exercise 2.1
 created: '2020-12-17T04:45:49.001Z'
-modified: '2020-12-17T07:04:04.289Z'
+modified: '2020-12-17T08:39:33.261Z'
 ---
 
 # Exercise 2.1

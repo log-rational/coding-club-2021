@@ -10,13 +10,13 @@ modified: "2020-12-17T05:45:11.927Z"
 
 ## Common scripting workflow
 
-1. Import Arcpy
+### 1. Import Arcpy
 
 ```Python
 import arcpy
 ```
 
-1. Set environment
+### 2. Set environment
 
 ```Python
 arcpy.env.workspace = r"c:\data"
@@ -24,7 +24,7 @@ arcpy.env.cellSize = 10
 arcpy.env.overwriteOutput = True
 ```
 
-1. Create list of GIS objects:
+### 3. Create list of GIS objects
 
 ```python
 # List may contain list of properties (values) or dataset
@@ -43,18 +43,18 @@ poly_list = arcpy.ListFeatureClasses(feature_type="Polygon")
 
 ![Arcpy List Generator](../attachments/Clipboard_2020-12-17-05-45-07.png)
 
-1. Iterate over the list
+### 4. Iterate over the list
 
 ```python
 for shp in shp_list:
   pass
 ```
 
-5. Geoprocessing
+### 5. Geoprocessing
 
 ```python
 for shp in shp_list:
-  pass
+  arcpy.Exists(shp)
 ```
 
 - [ ] Buffer tool demonstartion
