@@ -2,14 +2,15 @@
 attachments: [Clipboard_2020-12-17-07-12-52.png]
 tags: [Lessons]
 title: Coding Club 1
-created: '2020-12-14T13:57:00.018Z'
-modified: '2020-12-17T07:12:52.430Z'
+created: "2020-12-14T13:57:00.018Z"
+modified: "2020-12-17T07:12:52.430Z"
 ---
 
 # Coding Club 1
 
 ## Recap
-- __30 Days of python [YouTube Playlist](https://www.youtube.com/watch?v=RGor6fssp6c&list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6)__
+
+- **30 Days of python [YouTube Playlist](https://www.youtube.com/watch?v=RGor6fssp6c&list=PLEsfXFp6DpzQjDBvhNy5YbaBx9j-ZsUe6)**
 
   - [ ] Python 3.8.x intallation [link](https://www.youtube.com/watch?v=RGor6fssp6c)
   - [ ] Numbers, Variables and Strings [link](https://www.youtube.com/watch?v=pLniTMTW0vE)
@@ -79,5 +80,4 @@ print(translated_greeting)
 
 ## Computational thinking and abstraction
 
-![](@attachment/Clipboard_2020-12-17-07-12-52.png)
-
+![Computational thinking and abstraction](../attachments/Clipboard_2020-12-17-07-12-52.png)
