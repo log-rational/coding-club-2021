@@ -16,7 +16,7 @@ modified: "2020-12-17T05:45:11.927Z"
 import arcpy
 ```
 
-2. Set environment
+1. Set environment
 
 ```Python
 arcpy.env.workspace = r"c:\data"
@@ -24,7 +24,7 @@ arcpy.env.cellSize = 10
 arcpy.env.overwriteOutput = True
 ```
 
-3. Create list of GIS objects:
+1. Create list of GIS objects:
 
 ```python
 # List may contain list of properties (values) or dataset
