@@ -86,4 +86,53 @@ print(translated_greeting)
 
 Its time to put all of these skills together so here is the scenario. A manager in your troop has recently arrived. He has to send 2x geographic technicians to support an external unit, but they should have python programming knowledge and be class 1 qualified. We are going to create a python program to help the manager shortlist appropriate technicians from a pool of his technicians.
 
+```python
+class GeoTech:
+    def __init__(self, name, service_number, qualifications):
+        self.name = name
+        self.service_number = service_number
+        self.qualifications = qualifications
+
+    def can_deploy(self):
+        if(('Class1' in self.qualifications) and ('JavaScript' in self.qualifications)):
+            return "Yes"
+        else:
+            return "No"
+
+
+if __name__ == "__main__":
+    geotech_pool = []
+
+    geo1 = GeoTech('Joe', 30048377, [
+        'Class1', 'Class2', "Python", "JavaScript"])
+    geo2 = GeoTech('John', 30048377, ['Class2', "Python", "JavaScript"])
+    geo3 = GeoTech('Doe', 30048377, ['Class1', 'Class2',  "JavaScript"])
+    geo4 = GeoTech('Jake', 30048377, ['Class2'])
+
+    geotech_pool.append(geo1)
+    geotech_pool.append(geo2)
+    geotech_pool.append(geo3)
+    geotech_pool.append(geo4)
+
+    # List name and number of soldier
+    for geo in geotech_pool:
+        print(f"{geo.name} - {geo.can_deploy()}")
+
+    # Lets say the requirement is to find Class1 with Python knowledge
+    # we will add new method in our GeoTech class:
+    # can_deploy ? return true or false
+
+    class GeoTech:
+
+        def __init__(self, name, service_number, qualifications):
+            self.name = name
+            self.service_number = service_number
+            self.qualifications = qualifications
+
+        def can_deploy(self):
+            if(('Class1' in self.qualifications) and ('JavaScript' in self.qualifications)):
+                return "Yes"
+            else:
+                return "No"
+```
 
